@@ -6,7 +6,8 @@ To run the code, you can either run it on docker natively or run it on Google Co
 ### Expected Outputs
 Parts 1 and 2 utilize different data cleaning methods to fill in missing data and standardize data. In part 3, we drop rows with NA values. We expect the dataframe to now include 101,203 rows and 16 columns. One column is dropped for its repetitiveness. 
 
-In part 4, there are 5 histogram outputs and 1 table output. These are histograms of 4 different columns, number of seats and capacity in pounds and their Box-Cox transformations. There are two new columns in the dataframe, but no change in the number of rows.
-In part 5, there are 2 histogram outputs. These depict the distributions of Operating Status and Aircraft Status. No manipulation is done to the dataframe.
+In part 4, we transform two variables that have significant skew to depict more normalized data. There are 5 histogram outputs and 1 table output. These are histograms of 4 different columns, number of seats and capacity in pounds and their Box-Cox transformations. There are two new columns in the dataframe, but no change in the number of rows.
+
+In part 5, we examine the different operating and airlines statuses based on the size of the plane. There are 2 histogram outputs. These depict the distributions of Operating Status and Aircraft Status. No manipulation is done to the dataframe.
 
 There are some warnings scattered throughout the code outputs, but those do not impact the results of the code. 
