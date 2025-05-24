@@ -1,0 +1,8 @@
+The code will run on Google Collab without any issues. However, Pyspark refuses to work for both my local computer and through the Dockerfile. See the Gen AI Disclosure.
+
+In section 1: The code calculates the tf-idf and plots the tf and tf-idf measures in two different histograms. The data is downloaded from github. It is a file expected to have two columns, one called _c0 for the document id and
+another called frequency which contains a list of all the words in the document. 
+
+In section 2: The code will calculate the loss in an SVM model. There are 3 files downloaded from Github. One file provides the data with 63 features and the classification. Another file provides the weights which is a 1d row
+with 63 columns. The last file will provide a single value. There are two loss SVMs functions built. The first one is one that follows the homework instructions. The second one is an additional function that can be ignored.
+The second function rounds the classification to 1 or -1. The functions will only output a value which is the loss or L(w,b).
